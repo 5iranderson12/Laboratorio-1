@@ -1,0 +1,23 @@
+//Anderson Saul Maravilla Callejas
+
+// Declarando las variables para la cantidad de cada producto
+let camisetas = 120;
+let pantalones = 80;
+let zapatos = 150;
+
+// Calculando el total de productos en el inventario
+let totalProductos = camisetas + pantalones + zapatos;
+
+// Imprimiendo el total de productos del inventario
+console.log("Total de productos en inventario: " + totalProductos);
+
+// Verificando si es necesario reponer algún producto
+if (camisetas < 100) {
+    console.log("Es necesario reponer camisetas.");
+} else if (pantalones < 100) {
+    console.log("Es necesario reponer pantalones.");
+} else if (zapatos < 100) {
+    console.log("Es necesario reponer zapatos.");
+} else {
+    console.log("No es necesario reponer ningún producto.");
+}
